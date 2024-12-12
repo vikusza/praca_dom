@@ -1,7 +1,13 @@
 #include <iostream>
 
 using namespace std;
-
+int silnia (int n){
+    int k = 1;
+    for (int i = 1; i <= n; i++){
+        k = k*i;
+    }
+    return k;
+}
 int main() {
     int a, b;
     cout << "Podaj liczbe calkowita ";
